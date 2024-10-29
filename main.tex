@@ -34,6 +34,7 @@
 \usetikzlibrary{shapes.geometric, arrows, positioning, fit, backgrounds}
 \usepackage{hyperref}
 \usepackage{framed}
+\usepackage{wrapfig}
 
 % \usepackage[showframe]{geometry}
 
@@ -218,8 +219,19 @@ The first step to using RAiD is for your organisation to sign a short Service Ag
   \label{aws-architecture}
 \end{Figure}
 
-\large{To try RAiD, please visit our demo web app \href{https://app.demo.raid.org.au/home}{https://app.demo.raid.org.au/home} (authenticate and then request access to the ‘RAiD Sandbox’ Service Point), or investigate our API at \href{https://api.demo.raid.org.au/swagger-ui/index.html\#/}{https://api.demo.raid.org.au/swagger-ui/index.html\#/} (API token available via the web app).
-}
+\vspace{1cm}
+
+% Adjust spacing around wrapped figures
+\setlength{\intextsep}{0pt}  % Reduce space above and below wrapped figures
+\setlength{\columnsep}{10pt}  % Reduce horizontal space between figure and text
+
+\begin{wrapfigure}{r}{0.08\columnwidth}
+% \vspace{-0.25cm}  % Adjust this value as needed
+\includegraphics[width=0.08\columnwidth]{figures/QR-code.png}
+% \vspace{0.25cm}  % Increase this value to add more space after the figure
+\end{wrapfigure}
+
+\large{To try RAiD, please visit our {\href{https://app.demo.raid.org.au/}{demo web app}} (authenticate and then request access to the ‘RAiD Sandbox’ Service Point), or investigate our API at \href{https://api.demo.raid.org.au/swagger-ui/index.html\#/}{https://api.demo.raid.org.au/swagger-ui/index.html\#/} (API token available via the web app).
 
 %----------------------------------------------------------------------------------------
 % RAID Metadata schema
