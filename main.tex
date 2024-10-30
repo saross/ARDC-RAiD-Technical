@@ -36,9 +36,11 @@
 \usepackage{framed}
 \usepackage{wrapfig}
 
-% \usepackage[showframe]{geometry}
 
-% \usepackage{fancyhdr}
+
+% \usepackage[showframe]{geometry} % having difficulty getting this to work
+
+% \usepackage{fancyhdr} % also having trouble with fancyhdr
 % https://www.overleaf.com/learn/latex/Headers_and_footers#Using_the_fancyhdr_package
 % \pagestyle{fancy}
 % \fancyhf{} % clear existing header/footer entries
@@ -54,6 +56,7 @@
 \usepackage{fontspec}
 \usepackage[english, bulgarian]{babel}
 \usepackage{polyglossia}
+\usepackage{scalefnt}
 
 \usepackage{microtype}
 \newfontfamily{\cyrillicfont}{NewCM10-Regular} 
@@ -78,25 +81,21 @@
 
 % Set margins
 % Use the geometry package for this, Shawn, this is why your footer doesn't work, I think.
-\setlength{\topmargin}{2cm}
+\setlength{\topmargin}{1.5cm}
 \setlength{\oddsidemargin}{2cm}
 \setlength{\evensidemargin}{2cm}
 \setlength{\textwidth}{0.95\paperwidth}
-\setlength{\textheight}{0.95\paperheight}
+\setlength{\textheight}{0.975\paperheight}
 \setlist[enumerate]{leftmargin=2em}
 
 % Increase first-line indent
 \setlength{\parindent}{2em}
 
-
-% \setmainfont{Gentium}
-
-% \usepackage{fontspec}
-\setmainfont{TeX Gyre Termes}
+\setmainfont{Arial}
 % https://tex.stackexchange.com/questions/639067/defining-a-fallback-font-for-all-missing-characters
 
-
 \begin{document}
+\scalefont{0.9}  % Scales all fonts to 90% of their original size
 
 %----------------------------------------------------------------------------------------
 % POSTER HEADER
@@ -106,20 +105,17 @@
 \begin{multicols}{2}
 
 \noindent
-% \noindent\begin{minipage}[t]{0.75\linewidth}
 \vspace{0pt}
 \Huge \color{ARDCBlue} \textbf{The Research Activity Identifier (RAiD):} \color{Black}\\[0.3cm]
-\LARGE\textit{System architecture, metadata schema, workflows, and examples}\\[1cm]
-\Large \textbf{Shawn Ross\textsuperscript{1}, Natasha Simons\textsuperscript{1}, Rob Leney\textsuperscript{1}, Steffen Weidenhaus\textsuperscript{1}}\\[0.5cm]
+\Large\textit{System architecture, metadata schema, workflows, and examples}\\[1cm]
+\large \textbf{Shawn Ross\textsuperscript{1}, Natasha Simons\textsuperscript{1}, Rob Leney\textsuperscript{1}, Steffen Weidenhaus\textsuperscript{1}}\\[0.5cm]
 \large \textsuperscript{1}Australian Research Data Commons
-% \end{minipage} 
-% \begin{minipage}[t]{0.25\linewidth}
-% \raggedleft
+
 \vfill\null
 \columnbreak
 \raggedleft
 \noindent\includegraphics[width=0.5\linewidth]{ARDC logo - RGB.png}
-% \end{minipage}
+
 \end{multicols}     
 
 \begin{multicols}{3}
@@ -176,7 +172,7 @@ Each RAiD Registration Agency runs an instance of the RAiD Service, federated in
   \centering
   \includegraphics[width=0.75\linewidth]{figures/20241023-raid-architecture-feature-boxes.png}
   \captionof{figure}{RAiD architecture details.}
-  \label{aws-architecture}
+  \label{reature-implementation}
 \end{Figure}
 
 
@@ -193,7 +189,7 @@ RAiD has been designed from the ground up as a dedicated research project identi
 
 \begin{Figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/raid-key-features.png}
+  \includegraphics[width=0.9\linewidth]{figures/raid-key-features.png}
   \label{key-features}
 \end{Figure}
 
@@ -201,7 +197,7 @@ RAiD has been designed from the ground up as a dedicated research project identi
 % Acquiring RAiD
 %----------------------------------------------------------------------------------------
 
-\vspace{-2cm}
+\vspace{-1cm}
 
 \color{ARDCBlue}
 \section*{\LARGE How to get RAiD (ANZ)}
@@ -214,9 +210,9 @@ The first step to using RAiD is for your organisation to sign a short Service Ag
 
 \begin{Figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/raid-workflow.png}
+  \includegraphics[width=0.9\linewidth]{figures/raid-workflow.png}
   \captionof{figure}{Getting started with RAiD in Australia and New Zealand.}
-  \label{aws-architecture}
+  \label{raid-workflow}
 \end{Figure}
 
 \vspace{1cm}
@@ -236,14 +232,15 @@ The first step to using RAiD is for your organisation to sign a short Service Ag
 %----------------------------------------------------------------------------------------
 % RAID Metadata schema
 %----------------------------------------------------------------------------------------
+
+\vspace{-1cm}
+
 \color{ARDCPink}
 \section*{\LARGE RAiD metadata}
 \color{DarkGrey}
 \large{
 \input schema
 }
-
-\vspace{6cm}
 
 %----------------------------------------------------------------------------------------
 % RAID Example
