@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 840 475"
+   version="1.1"
+   id="svg48"
+   sodipodi:docname="raid-key-features.svg"
+   width="840"
+   height="475"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <defs
+     id="defs52">
+    <rect
+       x="61.054314"
+       y="187.85942"
+       width="313.99362"
+       height="258.3067"
+       id="rect276692" />
+    <rect
+       x="62.396168"
+       y="194.5687"
+       width="339.48883"
+       height="254.28114"
+       id="rect236857" />
+    <rect
+       x="61.054314"
+       y="164.377"
+       width="339.48883"
+       height="269.71246"
+       id="rect36377" />
+    <rect
+       x="61.725239"
+       y="169.07349"
+       width="342.17252"
+       height="269.71246"
+       id="rect23725" />
+    <rect
+       x="61.054314"
+       y="178.46645"
+       width="344.1853"
+       height="261.66135"
+       id="rect11503" />
+    <rect
+       x="62.396168"
+       y="194.5687"
+       width="327.33777"
+       height="243.54633"
+       id="rect236857-7" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview50"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     height="475px"
+     inkscape:zoom="1.4904762"
+     inkscape:cx="396.85304"
+     inkscape:cy="270.04792"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg48" />
+  <rect
+     x="19.92005"
+     y="23.420052"
+     width="800.15991"
+     height="423.15991"
+     rx="12.002398"
+     ry="10.155838"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="1.8401"
+     id="rect2" />
+  <text
+     x="60"
+     y="70"
+     font-size="26"
+     font-weight="bold"
+     font-family="Arial, sans-serif"
+     id="text4"
+     style="font-size:26.6667px">Key RAiD Features</text>
+  <g
+     transform="translate(60,126)"
+     id="g8">
+    <text
+       x="0"
+       y="0"
+       font-size="18"
+       font-weight="bold"
+       font-family="Arial, sans-serif"
+       id="text6"
+       style="font-size:20px"><tspan
+         sodipodi:role="line"
+         id="tspan132967"
+         x="0"
+         y="0"
+         style="font-size:20px">How RAiD differs from other</tspan><tspan
+         sodipodi:role="line"
+         x="0"
+         y="25"
+         id="tspan151611"
+         style="font-size:20px">identifiers</tspan></text>
+    <foreignObject
+       x="0"
+       y="30"
+       width="320"
+       height="200">
+      <xhtml:div
+         style="font-size: 16px; line-height: 1.5; font-family: Arial, sans-serif;">
+          RAiD has a metadata schema specifically designed for research projects, and the RAiD system automatically captures changes to the metadata over time, allows multiple collaborators to access and update the information, and generates landing pages that are directly linked to the identifier - features not found in other identifier systems.
+        </xhtml:div>
+    </foreignObject>
+  </g>
+  <g
+     transform="translate(420,96)"
+     id="g46">
+    <rect
+       x="0"
+       y="0"
+       width="360"
+       height="320"
+       rx="8"
+       ry="8"
+       fill="#ffffff"
+       stroke="#cccccc"
+       stroke-width="1"
+       id="rect12" />
+    <text
+       x="20"
+       y="30"
+       font-size="16px"
+       font-weight="bold"
+       font-family="Arial, sans-serif"
+       id="text14"
+       style="font-size:17.3333px">Example RAiD Workflow</text>
+    <g
+       transform="translate(20,50)"
+       id="g20">
+      <rect
+         x="0"
+         y="0"
+         width="320"
+         height="40"
+         rx="4"
+         ry="4"
+         fill="#0072c6"
+         id="rect16" />
+      <text
+         x="10"
+         y="25"
+         font-size="14px"
+         fill="#ffffff"
+         font-family="Arial, sans-serif"
+         id="text18">RAiD minted</text>
+    </g>
+    <g
+       transform="translate(20,100)"
+       id="g26">
+      <rect
+         x="0"
+         y="0"
+         width="320"
+         height="40"
+         rx="4"
+         ry="4"
+         fill="#e31b6d"
+         id="rect22" />
+      <text
+         x="10"
+         y="25"
+         font-size="14px"
+         fill="#ffffff"
+         font-family="Arial, sans-serif"
+         id="text24">Collaborators added</text>
+    </g>
+    <g
+       transform="translate(20,150)"
+       id="g32">
+      <rect
+         x="0"
+         y="0"
+         width="320"
+         height="40"
+         rx="4"
+         ry="4"
+         fill="#fdb913"
+         id="rect28" />
+      <text
+         x="10"
+         y="25"
+         font-size="14px"
+         fill="#333333"
+         font-family="Arial, sans-serif"
+         id="text30">Metadata updated</text>
+    </g>
+    <g
+       transform="translate(20,200)"
+       id="g38">
+      <rect
+         x="0"
+         y="0"
+         width="320"
+         height="40"
+         rx="4"
+         ry="4"
+         fill="#0072c6"
+         id="rect34" />
+      <text
+         x="10"
+         y="25"
+         font-size="14px"
+         fill="#ffffff"
+         font-family="Arial, sans-serif"
+         id="text36">Landing page generated</text>
+    </g>
+    <g
+       transform="translate(20,250)"
+       id="g44">
+      <rect
+         x="0"
+         y="0"
+         width="320"
+         height="40"
+         rx="4"
+         ry="4"
+         fill="#9b59b6"
+         id="rect40" />
+      <text
+         x="10"
+         y="25"
+         font-size="14px"
+         fill="#ffffff"
+         font-family="Arial, sans-serif"
+         id="text42">Version history maintained</text>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     id="text11501"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect11503);fill:#000000;fill-opacity:1;stroke:none" />
+  <text
+     xml:space="preserve"
+     id="text23723"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect23725);fill:#000000;fill-opacity:1;stroke:none" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="62.396168"
+     y="211.34184"
+     id="text175317"><tspan
+       sodipodi:role="line"
+       id="tspan175315"
+       x="62.396168"
+       y="211.34184"></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text276690"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect276692);fill:#000000;fill-opacity:1;stroke:none" />
+  <text
+     xml:space="preserve"
+     id="text236855-7"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.8907px;line-height:1.25;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif';white-space:pre;shape-inside:url(#rect236857-7);fill:#000000;fill-opacity:1;stroke:none"
+     transform="matrix(0.93866333,0,0,1,2.733327,-26.521986)"><tspan
+       x="62.396484"
+       y="210.68349"
+       id="tspan340244">RAiD has a metadata schema </tspan><tspan
+       x="62.396484"
+       y="233.04686"
+       id="tspan340246">specifically designed for research </tspan><tspan
+       x="62.396484"
+       y="255.41023"
+       id="tspan340248">projects, and the RAiD system </tspan><tspan
+       x="62.396484"
+       y="277.7736"
+       id="tspan340250">automatically captures changes to the </tspan><tspan
+       x="62.396484"
+       y="300.13698"
+       id="tspan340252">metadata over time, allows multiple </tspan><tspan
+       x="62.396484"
+       y="322.50035"
+       id="tspan340254">collaborators to access and update the </tspan><tspan
+       x="62.396484"
+       y="344.86372"
+       id="tspan340256">information, and generates landing </tspan><tspan
+       x="62.396484"
+       y="367.2271"
+       id="tspan340258">pages that are directly linked to the </tspan><tspan
+       x="62.396484"
+       y="389.59047"
+       id="tspan340260">identifier - features not found in other </tspan><tspan
+       x="62.396484"
+       y="411.95384"
+       id="tspan340262">identifier systems.</tspan></text>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" style="font-family: Arial, sans-serif;">
+  <!-- Definitions for reusable elements -->
+  <defs>
+    <!-- Arrow marker -->
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#595959"/>
+    </marker>
+  </defs>
+
+  <!-- White background -->
+  <rect x="0" y="0" width="900" height="400" fill="white"/>
+
+  <!-- Container border - now 2px -->
+  <rect x="10" y="15" width="880" height="370" rx="15" 
+    fill="none" stroke="#595959" stroke-width="2"/>
+
+  <!-- Centered group for all content -->
+  <g transform="translate(40,45)">
+    <!-- Row 1 -->
+    <g transform="translate(0,0)">
+      <!-- Box 1 - now 1px -->
+      <rect x="0" y="0" width="220" height="70" rx="10" 
+        fill="#f0f0f0" stroke="#595959" stroke-width="1"/>
+      <text x="110" y="28" text-anchor="middle" font-size="15.5" font-weight="500" fill="#333333" font-family="Arial, sans-serif">
+        <tspan x="110" dy="0">Organisation signs RAiD</tspan>
+        <tspan x="110" dy="24">Service Schedule with ARDC</tspan>
+      </text>
+
+      <!-- Box 2 - now 1px -->
+      <g transform="translate(280,0)">
+        <rect x="0" y="0" width="220" height="70" rx="10"
+          fill="#f0f0f0" stroke="#595959" stroke-width="1"/>
+        <text x="110" y="28" text-anchor="middle" font-size="15.5" font-weight="500" fill="#333333" font-family="Arial, sans-serif">
+          <tspan x="110" dy="0">ARDC establishes</tspan>
+          <tspan x="110" dy="24">RAiD Service Point (SP)</tspan>
+        </text>
+      </g>
+
+      <!-- Box 3 - now 1px -->
+      <g transform="translate(560,0)">
+        <rect x="0" y="0" width="220" height="70" rx="10"
+          fill="#f0f0f0" stroke="#595959" stroke-width="1"/>
+        <text x="110" y="28" text-anchor="middle" font-size="15.5" font-weight="500" fill="#333333" font-family="Arial, sans-serif">
+          <tspan x="110" dy="0">User logs into RAiD</tspan>
+          <tspan x="110" dy="24">(AAF/Google/ORCID)</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0,120)">
+      <!-- Box 4 - now 1px -->
+      <g transform="translate(560,0)">
+        <rect x="0" y="0" width="220" height="70" rx="10"
+          fill="#f0f0f0" stroke="#595959" stroke-width="1"/>
+        <text x="110" y="28" text-anchor="middle" font-size="15.5" font-weight="500" fill="#333333" font-family="Arial, sans-serif">
+          <tspan x="110" dy="0">User requests access to SP</tspan>
+          <tspan x="110" dy="24">at their organisation</tspan>
+        </text>
+      </g>
+      
+      <!-- Box 5 - now 1px -->
+      <g transform="translate(280,0)">
+        <rect x="0" y="0" width="220" height="70" rx="10"
+          fill="#f0f0f0" stroke="#595959" stroke-width="1"/>
+        <text x="110" y="28" text-anchor="middle" font-size="14" font-weight="500" fill="#333333" font-family="Arial, sans-serif">
+          <tspan x="110" dy="0">Organisational representative</tspan>
+          <tspan x="110" dy="24">approves access to SP</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0,240)">
+      <!-- Box 6 - now 1px -->
+      <rect x="0" y="0" width="220" height="70" rx="10"
+        fill="#f0f0f0" stroke="#595959" stroke-width="1"/>
+      <text x="110" y="28" text-anchor="middle" font-size="15.5" font-weight="500" fill="#333333" font-family="Arial, sans-serif">
+        <tspan x="110" dy="0">User mints RAiDs</tspan>
+        <tspan x="110" dy="24">and can invite others</tspan>
+      </text>
+
+      <!-- Box 7 - now 1px -->
+      <g transform="translate(560,0)">
+        <rect x="0" y="0" width="220" height="70" rx="10"
+          fill="#f0f0f0" stroke="#595959" stroke-width="1"/>
+        <text x="110" y="28" text-anchor="middle" font-size="15.5" font-weight="500" fill="#333333" font-family="Arial, sans-serif">
+          <tspan x="110" dy="0">User can accept</tspan>
+          <tspan x="110" dy="24">invitations to join RAiDs</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- Connecting arrows -->
+    <!-- Row 1 connections -->
+    <path d="M 220,35 L 280,35" fill="none" stroke="#595959" 
+      stroke-width="1" marker-end="url(#arrowhead)"/>
+    <path d="M 500,35 L 560,35" fill="none" stroke="#595959" 
+      stroke-width="1" marker-end="url(#arrowhead)"/>
+    
+    <!-- Vertical connection -->
+    <path d="M 670,70 L 670,120" fill="none" stroke="#595959" 
+      stroke-width="1" marker-end="url(#arrowhead)"/>
+    
+    <!-- Connection to approval -->
+    <path d="M 560,155 L 500,155" fill="none" stroke="#595959" 
+      stroke-width="1" marker-end="url(#arrowhead)"/>
+    
+    <!-- Final connections -->
+    <path d="M 390,190 L 390,275 L 220,275" fill="none" stroke="#595959" 
+      stroke-width="1" marker-end="url(#arrowhead)"/>
+    <path d="M 390,275 L 560,275" fill="none" stroke="#595959" 
+      stroke-width="1" marker-end="url(#arrowhead)"/>
+  </g>
+</svg>
